@@ -1,0 +1,14 @@
+background: #1774DC;
+background: linear-gradient(106.75deg, #EF8F00 0%, #C17400 100%);
+background: #3C4543;
+background: #EF8F00;
+background: linear-gradient(109.06deg, #629AD8 -10.89%, #1774DC 111.82%);
+background: linear-gradient(109.06deg, #629AD8 -10.89%, #1774DC 111.82%);
+background: linear-gradient(109.06deg, #003C80 -10.89%, #1774DC 111.82%);
+background: linear-gradient(109.06deg, #EF8F00 -10.89%, #5A8DC7 111.82%);
+background: linear-gradient(109.06deg, #EF8F00 -10.89%, #5A8DC7 111.82%);
+background: linear-gradient(109.06deg, #7EA582 -10.89%, #1774DC 111.82%);
+background: linear-gradient(109.06deg, #629AD8 -10.89%, #440C5F 111.82%);
+background: linear-gradient(109.06deg, #B7A432 -10.89%, #0E6082 111.82%);
+background: #00000066;
+color: #23dbdb;

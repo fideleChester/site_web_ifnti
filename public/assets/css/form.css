@@ -1,0 +1,153 @@
+input,
+textarea {
+    caret-color               : dodgerblue;
+}
+
+.myform {
+    margin                    : 20px auto;
+    width                     : 100%;
+    height                    : auto;
+
+    display                   : flex;
+    align-items               : center;
+    text-align                : center;
+    justify-content           : center;
+    place-items               : center;
+    font-family               : poppins;
+}
+
+.neuroform {
+    position                  : relative;
+    width                     : auto;
+    height                    : 650px;
+    border-radius             : 20px;
+    padding                   : 40px;
+    box-sizing                : border-box;
+    border                    : 1px #2b3b4c solid;
+    margin                    : auto;
+    background                : rgba(30, 143, 255, 0.233);
+
+    border-left               : 1px solid rgba(255, 255, 255, 0.3);
+    border-top                : 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter   : blur(10px);
+    backdrop-filter           : blur(10px);
+
+    transition                : all 0.2s ease-in-out;
+}
+.neuroform textarea {
+    resize                    : none;
+}
+.names {
+    display                   : flex;
+    justify-content           : space-between;
+    align-items               : center;
+}
+
+.names div:first-child {
+    margin-right              : 20px;
+}
+
+.inputs {
+    text-align                : left;
+}
+
+.neuroform label,
+input,
+button,
+textarea {
+    display                   : block;
+    width                     : 100%;
+    padding                   : 0;
+    border                    : none;
+    margin-top                : 10px;
+    outline                   : none;
+    box-sizing                : border-box;
+}
+
+.neuroform label {
+    margin-top                : 20px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color                     : gray;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color                     : gray;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color                     : gray;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+    color                     : gray;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color                     : gray;
+}
+
+input {
+    background                : #454b4f25;
+    padding                   : 10px;
+    padding-left              : 20px;
+    height                    : 50px;
+    font-size                 : 14px;
+    border-radius             : 10px;
+}
+
+input:focus,
+textarea:focus {
+    border                    : 1px dodgerblue solid;
+}
+
+textarea {
+    background                : #454b4f25;
+    padding                   : 10px;
+    padding-left              : 20px;
+    font-size                 : 14px;
+    border-radius             : 10px;
+}
+
+a.bouton {
+    position                  : absolute;
+    bottom                    : 4px;
+    right                     : 4px;
+    text-decoration           : none;
+    color                     : #ecf0f3;
+    background-color          : dodgerblue;
+    border-radius             : 30px;
+    padding                   : 10px;
+    margin                    : 40px 40px 20px;
+    cursor                    : pointer;
+    font-weight               : 900;
+    transition                : 0.2s;
+    -webkit-transition        : 0.2s;
+    -moz-transition           : 0.2s;
+    -ms-transition            : 0.2s;
+    -o-transition             : 0.2s;
+}
+a:active {
+    box-shadow                : none;
+}
+a.bouton:hover {
+    color                     : dodgerblue;
+    background-color          : #ecf0f3;
+    border                    : 1px dodgerblue solid;
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+    .neuroform {
+        width                 : auto;
+        height                : auto;
+
+        margin                : 200px 5px;
+    }
+    a.bouton {
+        position              : absolute;
+        bottom                : 0px;
+        right                 : 2px;
+    }
+}

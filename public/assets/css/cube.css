@@ -1,0 +1,108 @@
+.slides {
+  -webkit-perspective           : 800;
+  -moz-perspective              : 800px;
+  -ms-perspective               : 800;
+  perspective                   : 800;
+  -webkit-perspective-origin    : 50% 100px;
+  -moz-perspective-origin       : 50% 100px;
+  -ms-perspective-origin        : 50% 100px;
+  perspective-origin            : 50% 100px;
+  margin                        : auto auto;
+  width                         : 450px;
+  height                        : 400px;
+}
+.slides .slides__spinner {
+  position                      : relative;
+  margin                        : 0 auto;
+  height                        : 281px;
+  width                         : 450px;
+  -webkit-transform-style       : preserve-3d;
+  -moz-transform-style          : preserve-3d;
+  -ms-transform-style           : preserve-3d;
+  transform-style               : preserve-3d;
+  -webkit-transform-origin      : 50% 100px 0;
+  -moz-transform-origin         : 50% 100px 0;
+  -ms-transform-origin          : 50% 100px 0;
+  transform-origin              : 50% 100px 0;
+  -webkit-transition            : all 1s ease-in-out;
+  -moz-transition               : all 1s ease-in-out;
+  -ms-transition                : all 1s ease-in-out;
+  transition                    : all 1s ease-in-out;
+}
+.slides .slide {
+  position                      : absolute;
+
+  height                        : 281px;
+  width                         : 450px;
+  padding                       : 0px;
+}
+.slides .slide img {
+  height                        : 281px;
+  width                         : 450px;
+}
+.slides__spinner .one {
+  -webkit-transform             : translateZ(225px);
+  -moz-transform                : translateZ(225px);
+  -ms-transform                 : translateZ(225px);
+  transform                     : translateZ(225px);
+}
+.slides__spinner .two {
+  -webkit-transform             : rotateY(90deg) translateZ(225px);
+  -moz-transform                : rotateY(90deg) translateZ(225px);
+  -ms-transform                 : rotateY(90deg) translateZ(225px);
+  transform                     : rotateY(90deg) translateZ(225px);
+}
+.slides__spinner .three {
+  -webkit-transform             : rotateY(180deg) translateZ(225px);
+  -moz-transform                : rotateY(180deg) translateZ(225px);
+  -ms-transform                 : rotateY(180deg) translateZ(225px);
+  transform                     : rotateY(180deg) translateZ(225px);
+}
+.slides__spinner .four {
+  -webkit-transform             : rotateY(-90deg) translateZ(225px);
+  -moz-transform                : rotateY(-90deg) translateZ(225px);
+  -ms-transform                 : rotateY(-90deg) translateZ(225px);
+  transform                     : rotateY(-90deg) translateZ(225px);
+}
+.slide-selector {
+  width                         : 100%;
+  margin                        : 0 auto;
+  text-align                    : center;
+  position                      : relative;
+  top                           : 0;
+  display                       : flex;
+  justify-content               : center;
+}
+.slide-selector li {
+  margin                        : 0;
+  padding                       : 0 2px 0 0;
+  display                       : inline-block;
+  cursor                        : pointer;
+  color                         : #fff;
+  text-transform                : uppercase;
+}
+.slide-selector li:last-child {
+  padding-right                 : 0;
+}
+.slide-selector li img {
+  max-width                     : 200px;
+  max-height                    : 200px;
+  min-height                    : 150px;
+  -webkit-filter                : grayscale(1);
+  filter                        : grayscale(1);
+}
+.slide-selector li.selected img {
+  -webkit-filter                : grayscale(0);
+  filter                        : grayscale(0);
+}
+@media screen and (min-width: 200px) and (max-width: 700px) {
+ .page3.batiment{
+  margin-bottom                 : 300px;
+ }
+ .slide-selector li img {
+  max-width                     : 100px;
+  max-height                    : 100px;
+  min-height                    : 100px;
+
+}
+}

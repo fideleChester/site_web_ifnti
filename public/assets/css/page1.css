@@ -1,0 +1,245 @@
+.fah.cards-wrapper {
+    display                       : grid;
+    justify-content               : center;
+    align-items                   : center;
+    grid-template-columns         : 1fr 1fr 1fr;
+    grid-gap                      : 4rem;
+    padding                       : 4rem;
+    margin                        : 0 auto;
+    width                         : -webkit-max-content;
+    width                         : -moz-max-content;
+    width                         : max-content;
+}
+
+.fah .card {
+    transition                    : all 0.5s ease-in-out;
+    font-family                   : "Heebo";
+    height                        : 20em;
+    width                         : 15em;
+    font-size                     : 1.5em;
+    color                         : white;
+    border-radius                 : 1em;
+    padding                       : 1em;
+    display                       : flex;
+    align-items                   : flex-end;
+    background-size               : cover;
+    background-position           : center;
+    box-shadow                    : 0 0 5em -1em black;
+    transition                    : all, var(--transition-time);
+    position                      : relative;
+    overflow                      : hidden;
+    border                        : 10px solid #ccc;
+    text-decoration               : none;
+    -o-object-fit                 : cover;
+       object-fit                 : cover;
+    -webkit-transition            : all 0.5s ease-in-out;
+    -moz-transition               : all 0.5s ease-in-out;
+    -ms-transition                : all 0.5s ease-in-out;
+    -o-transition                 : all 0.5s ease-in-out;
+}
+
+.fah .card h1 {
+    margin                        : 0;
+    font-size                     : 1.5em;
+    line-height                   : 1.2em;
+}
+
+.fah .card p {
+    font-size                     : 0.75em;
+    font-family                   : "Open Sans";
+    margin-top                    : 0.5em;
+    line-height                   : 1.5em;
+}
+
+.fah .card .tags {
+    display                       : block;
+}
+.j {
+    background                    : url(../img/a2.png);
+}
+.j1 {
+    background                    : url(../img/a4.png);
+}
+.j2 {
+    background                    : url(../img/a1.png);
+}
+.j3 {
+    background                    : url(../img/a3.png);
+}
+.j4 {
+    background                    : url(../img/a5.png);
+}
+.j5 {
+    background                    : url(../img/a6.png);
+}
+.fah .card .tags .nom,
+.fah .card .tags .profession {
+    font-size                     : 0.5em;
+    border-radius                 : 0.3rem;
+    padding                       : 0 0.5em;
+    margin-right                  : 0.5em;
+    line-height                   : 1.5em;
+    transition                    : all, var(--transition-time);
+}
+
+.fah .card .date {
+    position                      : absolute;
+    top                           : 0;
+    right                         : 0;
+    font-size                     : 0.75em;
+    padding                       : 1em;
+    line-height                   : 1em;
+    opacity                       : 0.8;
+}
+
+.fah .card::before,
+.fah .card::after {
+    content                       : "";
+    transform                     : scale(0);
+    transform-origin              : top left;
+    border-radius                 : 50%;
+    position                      : absolute;
+    left                          : -50%;
+    top                           : -50%;
+    z-index                       : -5;
+    transition                    : all, var(--transition-time);
+    transition-timing-function    : ease-in-out;
+}
+
+.fah .card:before {
+    width                         : 250%;
+    height                        : 250%;
+}
+
+.fah .card:after {
+    width                         : 200%;
+    height                        : 200%;
+}
+
+.fah .card:hover {
+    transform                     : scaleX(1.1) scaleY(1.1);
+    cursor                        : pointer;
+    -webkit-transform             : scaleX(1.1) scaleY(1.1);
+    -moz-transform                : scaleX(1.1) scaleY(1.1);
+    -ms-transform                 : scaleX(1.1) scaleY(1.1);
+    -o-transform                  : scaleX(1.1) scaleY(1.1);
+}
+
+.fah .card-grid-space .actu {
+    font-size                     : 1em;
+    margin-bottom                 : 1.2rem;
+    margin-left                   : 1rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1285px) {
+    .fah.cards-wrapper {
+        grid-template-columns     : 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .fah.cards-wrapper {
+        grid-template-columns     : 1fr;
+    }
+
+    .fah .card-grid-space .actu {
+        margin-left               : 0;
+        text-align                : center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .fah.cards-wrapper {
+        padding                   : 4rem 2rem;
+    }
+    .fah .card {
+        max-width                 : calc(100vw - 4rem);
+    }
+}
+
+.raison {
+    position                      : relative;
+    background                    : rgba(0, 0, 255, 0.667);
+    display                       : block;
+    align-items                   : center;
+}
+
+.bloc {
+    padding                       : 5% 2% 20% 5%;
+    width                         : 75%;
+}
+.apropos {
+    padding                       : 5px;
+    text-align                    : center;
+    align-items                   : center;
+    font-size                     : 14px;
+    background                    : white;
+    border-radius                 : 15px;
+    margin-bottom                 : 15px;
+    border                        : none;
+}
+
+.raison h1 {
+    color                         : white;
+    font-weight                   : bolder;
+    font-size                     : 30pt;
+    margin-right                  : 65%;
+}
+
+.raison div {
+    margin                        : 15px 50% 15px 0;
+    color                         : white;
+}
+
+.raison p {
+    color                         : white;
+    display                       : flex;
+    align-items                   : center;
+    margin-top                    : 10px;
+}
+#wave {
+    position                      : absolute;
+    bottom                        : 0;
+    padding-right                 : 0;
+}
+
+.page1.materiel {
+    position                      : relative;
+    width                         : 100%;
+    height                        : 100vh;
+    display                       : flex;
+    flex-direction                : column;
+    justify-content               : space-between;
+    padding                       : 0;
+}
+.page1.materiel .bg {
+    width                         : 100%;
+    height                        : 100%;
+    -o-object-fit                 : cover;
+       object-fit                 : cover;
+    z-index                       : -1;
+    position                      : absolute;
+    top                           : 0;
+    bottom                        : 0;
+    left                          : 0;
+    right                         : 0;
+}
+
+.page1.materiel .svg-h,
+.page1.materiel .svg-b {
+    width                         : 100%;
+    height                        : 30%;
+}
+.page1.materiel .svg-haut,
+.page1.materiel .svg-bas {
+    height                        : 100%;
+    width                         : 100%;
+    -o-object-fit                 : cover;
+       object-fit                 : cover;
+}
+.page1.materiel h1 {
+    color                         : #ffffff;
+    font-size                     : 1.8em;
+    margin-left                   : 20px;
+}

@@ -1,0 +1,34 @@
+.catego{
+    margin-top        : 50px;
+    margin-left       : 50px;
+    display           : flex;
+	align-items          : center;
+	flex-wrap            : wrap;
+}
+.catego h5{
+font-size             : 1.2em;
+margin-right          : 20px;
+}
+
+.catego ul{
+	list-style           : none;
+    display           : flex;
+    justify-content   : space-around;
+    justify-items     : flex-start;
+	text-decoration      : none;
+	flex-wrap            : wrap;
+}
+
+.catego ul li{
+	margin-right         : 20px;
+	color                : black;
+	font-size            : 1.2em;
+}
+.catego ul li a:visited{
+	color                : black;
+
+}
+.catego ul li a:hover{
+	color                : orange;
+
+}

@@ -1,0 +1,165 @@
+.page3.presentation {
+    padding                   : 20px;
+}
+.page3.titre-pres {
+    padding-top               : 30px;
+}
+
+.page3.presentation-title {
+    color                     : orange;
+    font-size                 : 50px;
+    font-weight               : 800;
+}
+
+.page3.presentation-content p {
+    font-size                 : 16px;
+    margin                    : 30px 0;
+}
+
+.page3.batiment {
+    width                     : 100%;
+    height                    : auto;
+    position                  : relative;
+    margin-top                : 100px;
+}
+/*fondateurs*/
+.page3.fondateur-title {
+    font-size                 : 30px;
+    font-weight               : 800;
+    margin                    : 50px auto;
+    text-align                : center;
+}
+
+.page3.fondateur-content {
+    display                   : flex;
+    justify-content           : space-between;
+    align-items               : center;
+    border                    : 1px orange solid;
+    padding                   : 50px;
+    width                     : 70%;
+    transition                : all 0.5s ease-in-out;
+    -webkit-transition        : all 0.5s ease-in-out;
+    -moz-transition           : all 0.5s ease-in-out;
+    -ms-transition            : all 0.5s ease-in-out;
+    -o-transition             : all 0.5s ease-in-out;
+    border-radius             : 30px;
+    -webkit-border-radius     : 30px;
+    -moz-border-radius        : 30px;
+    -ms-border-radius         : 30px;
+    -o-border-radius          : 30px;
+    margin                    : 50px auto;
+}
+
+.fondateur1 .page3.fondateur-content {
+    display                   : grid;
+    grid-template-areas       : "a b" "c c";
+    height                    : auto;
+}
+.fondateur1 .extra {
+    grid-area                 : c;
+    width                     : 100%;
+}
+
+.fondateur2 .page3.fondateur-content {
+    padding                   : 50px;
+}
+
+.page3.fondateur-image {
+    max-width                 : 50%;
+}
+.page3.fondateur-image img {
+    max-width                 : 100%;
+    max-height                : 100%;
+}
+.fondateur1 .page3.fondateur-description {
+    text-align                : right;
+}
+.fondateur2 .page3.fondateur-description {
+    text-align                : left;
+}
+.objectif {
+    width                     : 70%;
+    margin                    : 50px auto;
+}
+.objectif-title h1 {
+    text-align                : center;
+    font-size                 : 50px;
+}
+
+.objectif-content {
+    display                   : grid;
+    grid-template-columns     : repeat(1fr);
+    grid-template-areas       : 
+        "a b c"
+        "d . c ";
+}
+.objectif-title,
+.objectif-content .objt-cont {
+    border                    : red 1px dotted;
+    padding                   : 10px;
+}
+.objectif-content .content1 {
+    grid-area                 : a;
+}
+.objectif-content .content2 {
+    grid-area                 : b;
+}
+.objectif-content .content3 {
+    grid-area                 : c;
+}
+.objectif-content .content4 {
+    grid-area                 : d;
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    .page3.batiment {
+        width                 : 100%;
+        height                : 200px;
+    }
+    .fondateur1 .page3.fondateur-content {
+        grid-template-areas   : "a" "b" "c";
+        height                : auto;
+        padding               : 5px;
+    }
+    .fondateur1 .page3.fondateur-content * {
+        margin                : auto;
+    }
+    .fondateur1 .page3.fondateur-description,
+    .fondateur1 .extra p {
+        padding               : 10px;
+        text-align            : center;
+    }
+    .fondateur2 .page3.fondateur-content {
+        flex-direction        : column-reverse;
+        height                : auto;
+    }
+    .fondateur2 .page3.fondateur-description {
+        text-align            : center;
+    }
+    .objectif-content {
+        display               : grid;
+        grid-template-columns : repeat(1fr);
+        grid-template-areas   : "a" "b" "c" "d";
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    .page3.fondateur-content {
+        margin                : 50px auto;
+        width                 : 80%;
+    }
+
+    .fondateur1 .page3.fondateur-descriptionp {
+        padding               : 10px;
+        text-align            : right;
+    }
+    .fondateur2 .page3.fondateur-content {
+        height                : auto;
+    }
+    .fondateur2 .page3.fondateur-description {
+        text-align            : left;
+    }
+    .objectif {
+        width                 : 90%;
+    }
+}

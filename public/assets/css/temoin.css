@@ -1,0 +1,778 @@
+.page1 .titres {
+  position: absolute;
+  z-index: 100;
+  margin: 10px;
+  display: grid;
+  margin-left: 100px;
+  margin-top: 50px;
+  backdrop-filter: blur(4px);
+  padding: 10px;
+}
+.page1 .titres h1,
+.titres h3 {
+  color: white;
+  top: 20px;
+}
+.page1 .titres h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.page1 .titres h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.page1 .titres .inscrip {
+  background: rgb(0, 0, 0);
+  padding: 12px;
+  width: 50%;
+  border-radius: 25px;
+}
+.page1.titres .inscrip a {
+  font-size: 2rem;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+  display: block;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.page1 .dim {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+.page1 .dim a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.page1 .dim:hover {
+  box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255),
+    0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+}
+
+/*footer*/
+.page1 .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  flex-wrap: wrap;
+}
+.page1 .cards0,
+.page1 .cards1,
+.page1 .cards2,
+.page1 .cards3 {
+  width: 20rem;
+  height: 15rem;
+  flex-wrap: wrap;
+}
+.page1 .cards0 img {
+  text-align: center;
+  height: 150px;
+}
+.page1 .cards1 p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.page1 .cards2 {
+  text-align: center;
+  padding: 20px;
+}
+.page1 .cards2 .carden2 {
+  display: flex;
+  align-items: center;
+  float: left;
+  margin: 20px;
+}
+
+.page1 .card {
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  width: 12rem;
+  height: 8rem;
+  background: lightgrey;
+  border: 3px inset white;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  transition: all 0.5s ease-in-out;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: #8a8989;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.page1 .card:hover {
+  transform: translateY(-5px);
+  transition: all 0.5s ease-in-out;
+}
+.page1 .card img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.ifntiimage {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ifntiimage .gauche h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.ifntiimage .gauche .p1,
+.ifntiimage .gauche p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 6px;
+}
+.ifntiimage .droite {
+  margin-right: 0;
+}
+/*************/
+.page1 .btn {
+  width: 25rem;
+  height: 70px;
+  /*background: linear-gradient(to top, #00154c, #12376e, #23487f);*/
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.restecode .enf3 {
+  /*background-color: #00154c;*/
+  margin-top: 2rem;
+  border: 2px solid green;
+  background-color: blue;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.restecode .enf3 .apropros {
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  width: 15rem;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+.restecode .enf3 .apropros a {
+  font-size: 2rem;
+  color: black;
+}
+.restecode .enf3 h1 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.restecode .enf3 p {
+  color: white;
+  font-size: 1.5rem;
+}
+.enf3 .checks {
+  margin-top: 2rem;
+}
+.enf3 .checks .ch1,
+.enf3 .checks .ch2 {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.enf3 .checks small {
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+.enf3 .checks small i {
+  margin-left: 6px;
+  margin-top: 5px;
+  transform: scale(1.6);
+}
+/*
+.checks{
+    margin-bottom: 20rem;
+}*/
+.enf3 .checks .ch2 {
+  margin-bottom: 8rem;
+}
+
+/*============cards======================*/
+.page1.cardes {
+  margin: auto;
+  width: 100%;
+  background-color: white;
+}
+.page1.cardes  {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.page1.cardes .boites1 {
+  display: grid;
+  margin: 10px;
+  cursor: pointer;
+  height: 26rem;
+  width: 30rem;
+  border-radius: 50px;
+  background-color: rgb(226, 226, 226);
+  box-shadow: 5px 1px 10px rgb(155, 149, 149);
+}
+.cardes .boites1:hover {
+  box-shadow: inset 5px 1px 10px rgb(155, 149, 149);
+  background-color: rgb(255, 255, 255);
+}
+.boites1 .iconneboite {
+  width: 8rem;
+  height: 8rem;
+  margin: auto;
+  background-color: rgba(77, 168, 221, 0.212);
+  border-radius: 50%;
+}
+.boites1 .paragraphe {
+  margin-top: -10px;
+  text-align: center;
+}
+.paragraphe h1 {
+  font-size: 2rem;
+}
+.paragraphe .ensav {
+  margin-top: 2rem;
+}
+.paragraphe .paras p {
+  font-size: 1.3rem;
+}
+.paragraphe .ensav a {
+  font-size: 1.5rem;
+  color: rgb(255, 153, 0);
+  font-weight: bold;
+  margin-right: 5px;
+}
+.paragraphe .ensav small i {
+  color: rgb(255, 153, 0);
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.restecode .enfm1 {
+  height: 25%;
+  width: 100%;
+  position: relative;
+}
+.restecode .enfm1 img {
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+.restecode .enfm1 svg {
+  position: absolute;
+  top: 0;
+}
+.restecode .enfm2 {
+  height: 50rem;
+  width: 100%;
+  background-color: #00154c;
+}
+
+.restecode .flates {
+  position: relative;
+  height: 5rem;
+  width: 100%;
+}
+
+.restecode .enbas {
+  border: 2px solid white;
+  background: white;
+  width: 100%;
+}
+.restecode .enbas h1 {
+  font-size: 3rem;
+  margin: 10px;
+}
+.restecode .enbas .navigs ul li {
+  float: left;
+  margin: 10px;
+}
+.restecode .enbas .navigs ul li a {
+  font-size: 1.8rem;
+  color: white;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.cardes {
+  margin: auto;
+  width: calc(100% - 0.5%);
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.cardes .boit1,
+.boi1 {
+  margin: 60px;
+}
+
+.cardes .boit1 {
+  border-radius: 25px;
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 3px 2px 8px rgb(134, 134, 134);
+}
+.cardes .boit1 .partieimage {
+  border-radius: 25px;
+  height: 20rem;
+}
+.cardes .boit1 .partieimage img {
+  width: 100%;
+  border-radius: 25px;
+  height: 100%;
+}
+.boit1 .partietexte h1 {
+  font-size: 2rem;
+  margin: 30px;
+}
+.boit1 .partieparagraphe {
+  font-size: 1.4rem;
+  margin: 10px;
+}
+.boit1 .navig ul li {
+  float: left;
+  margin-left: 30px;
+}
+.boit1 .navig ul li a {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.enfm1 {
+  position: relative;
+}
+
+.enfm1 .sombre {
+  font-size: 2.3rem;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 0, 255, 0.363),
+    rgba(0, 0, 255, 0.149)
+  );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.enfm1 .sombre .somenfant {
+  width: 50rem;
+  margin-left: 10%;
+  margin-top: 20%;
+  backdrop-filter: blur(5px);
+}
+.enfm1 .sombre .somenfant h1 {
+  color: white;
+  font-size: 3.6rem;
+}
+.enfm1 .sombre .somenfant p {
+  color: white;
+  font-size: 1.7rem;
+}
+.enfm1 .contatct a {
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.enfm1 .contatct a:hover {
+  background: darkblue;
+}
+.boi1 {
+  width: 34rem;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 5px 1px 10px rgb(155, 149, 149);
+}
+.boi1:hover {
+  box-shadow: inset 5px 1px 10px rgb(155, 149, 149);
+}
+.boi1 small {
+  margin: 10px;
+}
+.boi1 small i,
+.temoin .temenf .aut small i {
+  transform: scale(1.6);
+  color: rgb(255, 166, 0);
+  box-shadow: 5px 1px 10px rgb(155, 149, 149);
+  border-radius: 50%;
+}
+.boi1 h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #00154c;
+}
+.boi1 .partieparagraphe {
+  font-size: 1.5rem;
+}
+.auteur p {
+  font-size: 1.3rem;
+}
+.cardes .b1 {
+  height: 28rem;
+}
+.temoin .temenf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+.temoin .temenf .aut {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.temoin .temenf .aut small {
+  margin-right: 50px;
+}
+
+.txe {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.txe p,
+.txe h2 {
+  margin-right: 15px;
+  font-size: 1.4rem;
+}
+.txe h2 {
+  color: rgb(255, 166, 0);
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.temoin p {
+  font-size: 2rem;
+}
+.location {
+  border: 1px solid red;
+}
+.location .imgs {
+  border: 2px blue solid;
+  height: 25rem;
+  border-radius: 25px;
+  width: 50rem;
+  margin: auto;
+}
+.location .imgs img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+/*==========================RESTE DU CODE ============================
+============================RESTE DU CODE ============================
+============================RESTE DU CODE ============================*/
+.contenerPrinpale {
+  border: 2px solid black;
+  padding: 10px 5%;
+}
+.contenu {
+  width: 100%;
+  position: relative;
+  box-shadow: 5px 1px 10px rgb(155, 149, 149);
+}
+
+/*==========================RESPONSIVITÉ ============================
+============================RESPONSIVITÉ ============================
+============================RESPONSIVITÉ ============================*/
+
+
+
+
+@media screen and ((min-width: 50px) and (max-width: 780px)) {
+  .ifntiimage .gauche h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .ifntiimage .gauche .p1,
+  .ifntiimage .gauche p {
+    font-size: 1rem;
+  }
+  .contenu {
+    width: calc(100% - 2%);
+  }
+  .titres {
+    display: none;
+  }
+
+  swiper-container {
+    width: 100%;
+    height: 25rem;
+  }
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+  }
+  .parteniares {
+    border: 2px solid green;
+    margin-bottom: 2rem;
+  }
+  .parteniares .card {
+    width: 18rem;
+    height: 10rem;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .ifntiimage {
+    text-align: center;
+    padding: 8px;
+    margin-top: -30px;
+  }
+  .btn {
+    width: 15rem;
+    cursor: pointer;
+  }
+  .btn a {
+    font-size: 2rem;
+    font-style: italic;
+  }
+  .ifntiimage .droite {
+    width: 20rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    height: 10rem;
+  }
+  .ifntiimage .droite img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .enf3 {
+    padding: 10px;
+  }
+  .enf3 .apropros {
+    margin: auto;
+  }
+  .cardesse {
+    width: 100%;
+  }
+  .cardes .boites1 {
+    display: grid;
+    cursor: pointer;
+    height: 26rem;
+    width: 50rem;
+    border-radius: 15px;
+  }
+  .boi1 {
+    width: 20rem;
+    margin: 50px;
+  }
+  .boi1 h2 {
+    font-size: 1rem;
+  }
+  .boi1 .partieparagraphe {
+    font-size: 1rem;
+  }
+  .b1 .etoiles small i,
+  .boi1 .etoiles small i {
+    transform: scale(1);
+  }
+  .boi1 p {
+    font-size: 1rem;
+  }
+  .temoin {
+    margin-top: 150px;
+  }
+  .somenfant {
+    width: 10rem;
+    height: 20rem;
+  }
+  .enfm1 .sombre .somenfant {
+    width: 30rem;
+    margin-left: 5%;
+    margin-top: 15%;
+    backdrop-filter: blur(5px);
+  }
+  .enfm1 .sombre .somenfant h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  .enfm1 .sombre .somenfant p {
+    color: white;
+    font-size: 1.3rem;
+  }
+  .contatct {
+    margin-top: -20px;
+  }
+  .contatct a {
+    font-size: 1rem;
+  }
+
+  .autres .boit1 {
+    height: 44rem;
+  }
+  .boites1 {
+    width: 10rem;
+  }
+  .partieimage {
+    width: 20rem;
+    height: 7rem;
+  }
+
+  .somenfant h1 {
+    font-size: 1rem;
+  }
+  .somenfant p {
+    font-size: 1rem;
+  }
+
+  .temoin p {
+    text-align: center;
+  }
+  .temenf {
+    display: grid;
+
+    flex-direction: column;
+  }
+  .temenf h2 {
+    margin-bottom: 3rem;
+  }
+  .aut small i {
+    margin: 20px;
+  }
+  .aut,
+  .txe {
+    display: grid;
+    flex-direction: column;
+    width: calc(100% - 2%);
+    text-align: center;
+  }
+}
+
+@media screen and ((min-width: 600px) and (max-width: 1080px)) {
+  .partieimage {
+    width: 30rem;
+    height: 7rem;
+  }
+  .ifntiimage .droite {
+    border: 2px solid blue;
+    width: 40rem;
+    margin-top: 50px;
+    margin: auto;
+  }
+  .ifntiimage .droite img {
+    width: 100%;
+  }
+ .page1 .btn {
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+  }
+  .enfm1 .sombre .somenfant {
+    width: 25rem;
+    margin-left: 5%;
+    margin-top: 15%;
+    backdrop-filter: blur(5px);
+  }
+  .enfm1 .sombre .somenfant h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  .enfm1 .sombre .somenfant p {
+    color: white;
+    font-size: 1.3rem;
+  }
+  .contatct {
+    margin-top: -20px;
+  }
+  .contatct a {
+    font-size: 1rem;
+  }
+
+  .temoin p {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .temenf {
+    display: grid;
+
+    flex-direction: column;
+  }
+  .temenf h2 {
+    margin-bottom: 3rem;
+  }
+  .aut small i {
+    margin: 20px;
+  }
+  .aut,
+  .txe {
+    display: grid;
+    flex-direction: column;
+    width: calc(100% - 2%);
+    text-align: center;
+  }
+}
+
+@media screen and ((min-width: 780px) and (max-width: 1980px)) {
+  .cardes .coln1,
+  .cardes .coln2,
+  .cardes .coln3 {
+    display: flex;
+    width: calc(100% - 2%);
+  }
+  .autres {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
